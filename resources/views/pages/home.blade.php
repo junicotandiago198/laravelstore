@@ -6,7 +6,7 @@
 
 @section('content')
     <div class="page-content page-home">
-        <section class="store-carousel">
+    <section class="store-carousel">
         <div class="container">
             <div class="row">
             <div class="col-lg-12" data-aos="zoom-in">
@@ -31,7 +31,7 @@
             </div>
             </div>
         </div>
-        </section>
+    </section>
         
         <section class="store-trend-categories">
             <div class="container">
@@ -63,9 +63,9 @@
         <section class="store-new-products">
         <div class="container">
             <div class="row">
-            <div class="col-12" data-aos="fade-up">
-                <h5>New Products</h5>
-            </div>
+                <div class="col-12" data-aos="fade-up">
+                    <h5>New Products</h5>
+                </div>
             </div>
             <div class="row">
                 @php $incrementProduct = 0 @endphp

@@ -120,6 +120,7 @@ class UserController extends Controller
 
         $item = User::findOrFail($id);
 
+        // Kondisi Jika Password Tidak Diganti
         if($request->password)
         {
             $data['password'] = bcrypt($request->password);
